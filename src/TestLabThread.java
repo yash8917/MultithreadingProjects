@@ -2,6 +2,7 @@
 //}
 class Mythread extends Thread
 {
+
     public static void main(String[] args) {
         Thread obj =Thread.currentThread();
         obj.setName("Yash"); // we can change the name of the thread method by set name method
