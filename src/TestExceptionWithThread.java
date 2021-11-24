@@ -3,7 +3,6 @@ public class TestExceptionWithThread extends Thread{
         try{
             System.out.println(10/0);
         }
-
         catch (ArithmeticException obj){
             System.out.println("Exception is  genrate");
         }
