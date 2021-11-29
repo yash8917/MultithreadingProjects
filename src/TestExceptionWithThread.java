@@ -4,7 +4,7 @@ public class TestExceptionWithThread extends Thread{
             System.out.println(10/0);
         }
         catch (ArithmeticException obj){
-            System.out.println("Exception is  genrate");
+            System.out.println("Your programme is Genrated the Exception.\nPlease Resolve This Exception.");
         }
     }
 }
