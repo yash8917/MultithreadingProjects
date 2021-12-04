@@ -13,11 +13,10 @@ class Mythread1 extends Thread{//This is the child Thread
 public class MultithredingExa_1 {
     public static void main(String[] args) {//This is our main Method
         Mythread1 t=new Mythread1();// This is called the Thread Instantiiation
-        t.start();
+        t.start();//If we write t.run(); so Child Thread won't be created it will run the as normal method called.
         //Start method do sevral operation:- 1.Register this Thread with Thread Schedular
         //2.Prform all other mandatory Activities
         //3. invoke the run Method
-
         for (int i = 0; i < 5; i++) {
             System.out.println("Main Thread");
         }
