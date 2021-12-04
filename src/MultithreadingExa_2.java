@@ -13,7 +13,7 @@ public class MultithreadingExa_2 {
         Mythread2 t=new Mythread2();
         t.start();
         System.out.println("Main Method");
-        // o
+
         //o/p is -run Method
         //run method overloading is possible
     }
