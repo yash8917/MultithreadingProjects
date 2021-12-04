@@ -5,7 +5,7 @@ class Mythread extends Thread
     public static void main(String[] args) {
         Thread obj =Thread.currentThread();
         obj.setName("Yash"); // we can change the name of the thread method by set name method
-        System.out.println(obj.isAlive());// return the boolean value of he thread is in running statement or not
+        System.out.println(obj.isAlive());// return the boolean value of the thread is in running statement or not
         System.out.println(obj.getName());// return the live thread
         System.out.println(obj.isDaemon()); // return the which runs on the background
         System.out.println(obj.getPriority());// check the priority value of th ethread
