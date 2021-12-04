@@ -16,7 +16,8 @@ public class MultithredingExa_1 {
         t.start();//If we write t.run(); so Child Thread won't be created it will run the as normal method called.
         //Start method do sevral operation:- 1.Register this Thread with Thread Schedular
         //2.Prform all other mandatory Activities
-        //3. invoke the run Method
+        //3. invoke the run
+
         for (int i = 0; i < 5; i++) {
             System.out.println("Main Thread");
         }
