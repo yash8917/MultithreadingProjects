@@ -13,6 +13,11 @@ class Thread_1 extends Thread{
 }
 class Thread_2 extends Thread{
     public void run(){
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         System.out.println("Shaggy");
     }
 }
