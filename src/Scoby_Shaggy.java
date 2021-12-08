@@ -3,6 +3,9 @@
 class Thread_1 extends Thread{
 
     public void run() {
+//        when two thread are Execute simultaniously there will be a chance to get the Error coz
+//        when you put the sleep method is execute so there is a chance to interrupt Exception
+//        the second thread
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
