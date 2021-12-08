@@ -14,6 +14,7 @@ class Thread_1 extends Thread{
         System.out.println("Scooby");
     }
 }
+//Creating the second Thread
 class Thread_2 extends Thread{
     public void run(){
         try {
@@ -27,10 +28,9 @@ class Thread_2 extends Thread{
 
 public class Scoby_Shaggy{
     public static void main(String[] args) {
-    Thread_1 t=new Thread_1();
+    Thread_1 t=new Thread_1();// create the Object of thread first
     t.start();
-
-    Thread_2 t1=new Thread_2();
+    Thread_2 t1=new Thread_2();//creating the second Object
     t1.start();
     }
 }
