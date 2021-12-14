@@ -25,7 +25,6 @@ class Thread_2 extends Thread{
         System.out.println("Shaggy");
     }
 }
-
 public class Scoby_Shaggy{
     public static void main(String[] args) {
     Thread_1 t=new Thread_1();// create the Object of thread first
