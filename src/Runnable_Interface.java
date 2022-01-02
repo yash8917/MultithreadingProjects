@@ -1,6 +1,7 @@
 //public class Runnable_Interface {
 //}
 ////by using Runnable Interface
+
 class Runnable_Interface implements Runnable{
 
     @Override
